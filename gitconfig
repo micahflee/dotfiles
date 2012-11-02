@@ -1,0 +1,9 @@
+[user]
+	name = Micah Lee
+	email = micahflee@riseup.net
+
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
