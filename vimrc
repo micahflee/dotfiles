@@ -5,6 +5,9 @@ syntax on
 set number
 set backspace=indent,eol,start
 set autoindent
+"set tabstop=2
+"set shiftwidth=2
+"set softtabstop=2
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
@@ -37,3 +40,7 @@ if has("autocmd")
   augroup END
 endif
 
+" pretty colors
+set t_Co=256
+let g:hybrid_use_Xresources = 1
+colorscheme hybrid
