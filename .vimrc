@@ -18,6 +18,7 @@ set wildmenu
 set wildmode=list:longest
 set synmaxcol=0   " handles syntax highlighting for really long lines
 set mouse-=a
+set showmatch
 
 " 2 spaces for php, css, js, html
 if has("autocmd")
