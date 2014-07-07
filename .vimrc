@@ -1,5 +1,3 @@
-call pathogen#infect()
-
 filetype indent plugin on
 syntax on
 set number
@@ -40,11 +38,6 @@ if has("autocmd")
     autocmd BufReadPre,FileReadPre      *.html set softtabstop=2
   augroup END
 endif
-
-" pretty colors
-set t_Co=256
-let g:hybrid_use_Xresources = 1
-colorscheme hybrid
 
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/

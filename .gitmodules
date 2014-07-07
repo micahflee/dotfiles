@@ -1,3 +1,0 @@
-[submodule ".vim/bundle/AutoComplPop"]
-	path = .vim/bundle/AutoComplPop
-	url = git@github.com:vim-scripts/AutoComplPop.git
