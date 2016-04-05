@@ -1,11 +1,12 @@
 #!/bin/bash
 
 # git stuff
-cp .gitconfig ~/.gitconfig
+cp .gitconfig ~/
 
 # screen
-cp .screenrc ~/.screenrc
+cp .screenrc ~/
 
 # vim stuff
-cp .vimrc ~/.vimrc
+cp -r .vim ~/
+cp .vimrc ~/
 
