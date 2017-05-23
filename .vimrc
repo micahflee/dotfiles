@@ -16,5 +16,3 @@ set mouse-=a
 set showmatch
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
-
-execute pathogen#infect()
