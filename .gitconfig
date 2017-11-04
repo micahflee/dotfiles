@@ -1,16 +1,25 @@
 [user]
-	name = Micah Lee
-	email = micah@micahflee.com
-    signingkey = 927F419D7EC82C2F149C1BD1403C2657CD994F73
+name = Micah Lee
+email = micah@micahflee.com
+signingkey = 927F419D7EC82C2F149C1BD1403C2657CD994F73
 
 [gpg]
-    program = qubes-gpg-client-wrapper
+program = qubes-gpg-client-wrapper
 
 [commit]
-    gpgsign = true
+gpgsign = true
 
 [color]
-	branch = auto
-	diff = auto
-	interactive = auto
-	status = auto
+branch = auto
+diff = auto
+interactive = auto
+status = auto
+
+[receive]
+fsckObjects = true
+
+[transfer]
+fsckObjects = true
+
+[fetch]
+fsckObjects = true
