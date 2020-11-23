@@ -20,3 +20,6 @@ fsckObjects = true
 
 [fetch]
 fsckObjects = true
+
+[pull]
+ff = only
