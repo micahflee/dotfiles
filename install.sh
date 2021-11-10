@@ -3,9 +3,6 @@
 # git stuff
 cp .gitconfig ~/
 
-# screen
-cp .screenrc ~/
-
 # vim stuff
 cp .vimrc ~/
 
